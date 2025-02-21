@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-shadcn-t3/tailwind": ["packages/tailwind/src/index.js"],
+      "@nx-shadcn-t3/tailwind/css": ["packages/tailwind/src/lib/globals.css"],
+      "@nx-shadcn-t3/ui": ["packages/ui/src/index.ts"],
+      "@nx-shadcn-t3/ui/*": ["packages/ui/src/*"],
+      "@nx-shadcn-t3/utils": ["packages/utils/src/index.ts"],
+      "@nx-shadcn-t3/utils/*": ["packages/utils/src/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,4 +1,4 @@
-import './global.css';
+import '@nx-shadcn-t3/tailwind/css';
 
 export const metadata = {
   title: 'Welcome to website',
